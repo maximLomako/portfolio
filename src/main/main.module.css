@@ -1,0 +1,25 @@
+
+.main {
+    height: 100vh;
+    background: cornflowerblue;
+}
+
+.content {
+    width: 300px;
+    border: 1px solid red;
+}
+
+.photo img {
+    height: 450px;
+    width: 350px;
+}
+
+@media (max-width: 850px) {
+    .mainContainer {
+        justify-content: center;
+    }
+    .photo img {
+        height: 400px;
+        width: 300px;
+    }
+}

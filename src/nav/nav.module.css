@@ -1,0 +1,15 @@
+.navContainer {
+    justify-content: flex-end!important;
+}
+.nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    border: 1px solid red;
+}
+
+@media (max-width: 850px) {
+    .navContainer {
+        justify-content: center!important;
+    }
+}

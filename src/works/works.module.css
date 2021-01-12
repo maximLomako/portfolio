@@ -1,0 +1,19 @@
+.worksBlock {
+    background: cadetblue;
+    padding-bottom: 50px;
+}
+
+.worksContainer {
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.title {
+    background: darkgrey;
+}
+.works {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 1px solid;
+    width: 100%;
+}

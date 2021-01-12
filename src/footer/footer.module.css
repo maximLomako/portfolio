@@ -1,0 +1,15 @@
+.footerBlock {
+    background: thistle;
+    padding-bottom: 50px;
+    height: 30vh;
+}
+.footerContainer {
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    border: 1px solid;
+}
